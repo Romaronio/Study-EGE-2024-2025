@@ -1,0 +1,6 @@
+print('.'.join(bin(x)[2:].zfill(8) for x in (135, 12, 170, 217)))
+print('.'.join(bin(n)[2:].zfill(8) for n in (255, 255, 248, 0)))
+print(int('10000111', 2))
+print(int('00001100', 2))
+print(int('10101000', 2))
+print(int('00000000', 2))
