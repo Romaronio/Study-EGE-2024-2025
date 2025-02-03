@@ -1,0 +1,14 @@
+def number_to_base(number: int = 100,
+                   base: int =10,
+                   to_string = True):#если написано True, то переведенное число будет строкой, если False, то число будет в массиве
+    if number == 0:
+        return[0]
+    digits = []
+    while number:
+        digits.append(int(number%base))
+        number//=base
+    if to_string:
+        return "".join(map(str, digits[::-1]))
+    return digits[::-1]
+    #программа переводит число в любую систему счисления, чтобы перевести
+    #присваеваем к любой переменной, например a = number_to_base(какое число, в какую систему)
