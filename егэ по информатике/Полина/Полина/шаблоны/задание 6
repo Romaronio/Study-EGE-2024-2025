@@ -1,0 +1,17 @@
+from turtle import *
+tracer(0)
+screensize(2000, 2000)
+m = 20
+
+left(90)
+
+
+#пишем сами действия
+
+
+up()
+for x in range(-20, 20):
+    for y in range(-20, 20):
+        setpos(x*m, y*m)
+        dot(5, "red")
+done()

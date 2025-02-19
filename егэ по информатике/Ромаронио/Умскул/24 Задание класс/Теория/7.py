@@ -1,0 +1,6 @@
+f = open(r"C:\Users\spiri\Desktop\подготовка\егэ по информатике\Ромаронио\Умскул\24 Задание класс\Теория\24.7.txt")
+s = f.readline()
+s = s.replace('YCRR', 'YCR CRR')
+a = s.split()
+print(a)
+print(len(max(a, key=len)))
