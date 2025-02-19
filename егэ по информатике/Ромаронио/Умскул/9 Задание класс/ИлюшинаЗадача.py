@@ -12,7 +12,7 @@ k2 = 0
 for m in res_mas:
 	if len(set(m)) == 4:
 		Nepovtor = set(m)
-		if (max(Nepovtor) + min(Nepovtor)) // 2 in Nepovtor:
+		if ((max(Nepovtor) + min(Nepovtor)) // 2) in Nepovtor:
 			k1 += 1
 	else:
 		m.sort()
