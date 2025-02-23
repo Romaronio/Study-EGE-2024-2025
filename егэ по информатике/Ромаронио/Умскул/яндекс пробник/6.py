@@ -4,8 +4,8 @@ tracer(0)
 k = 20
 screensize(5000, 5000)
 for _ in range(36):
-  forward(4 * k)
-  right(90)
+  forward(1 * k)
+  right(36)
 pu()
 forward(4 * k)
 right(90)
