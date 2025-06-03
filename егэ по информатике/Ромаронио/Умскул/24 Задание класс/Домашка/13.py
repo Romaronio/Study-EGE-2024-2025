@@ -18,7 +18,7 @@ for i, s in enumerate(f, start=1):
 		pass
 print(max(res_mas))
 
-# f = open(r'C:\Users\spiri\Desktop\подготовка\егэ по информатике\Ромаронио\Умскул\24 Задание класс\Домашка\24.13.txt')
+# f = open(r'C:\Users\spiri\Desktop\подготовка\егэ по информатике\Ромаронио\Умскул\24.txt Задание класс\Домашка\24.txt.13.txt')
 # obj = {}
 # for i,s in enumerate(f, start=1):
 # 	try:

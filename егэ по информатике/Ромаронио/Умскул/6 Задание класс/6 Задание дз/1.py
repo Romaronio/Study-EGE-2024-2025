@@ -9,6 +9,6 @@ for i in range(9):
 pu()
 for x in range(-40, 40):
 	for y in range(-40, 40):
-		goto(x * k, y * k)
+		setpos(x * k, y * k)
 		dot(3)
 done()

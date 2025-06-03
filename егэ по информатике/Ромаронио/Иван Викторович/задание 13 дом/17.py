@@ -1,5 +1,5 @@
 from ipaddress import *
-net = ip_network('154.24.165.32/255.255.255.224')
+net = ip_network('154.24.txt.165.32/255.255.255.224')
 k = 0
 for ip in net:
 	biin = bin(int(ip))[2:].zfill(32)
